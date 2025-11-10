@@ -13,6 +13,8 @@ Ce projet est une application Python simple qui utilise la librairie `requests` 
 2. Installez les dépendances :
    ```bash
    pip install -r requirements.txt
+
+## Installation et exécution Docker
 Construisez l'image Docker : Cette commande lit le Dockerfile et crée une image locale nommée app.
 
 docker build -t app .
