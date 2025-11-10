@@ -13,12 +13,12 @@ Ce projet est une application Python simple qui utilise la librairie `requests` 
 2. Installez les dépendances :
    ```bash
    pip install -r requirements.txt
-Construisez l'image Docker : Cette commande lit le Dockerfile et crée une image locale nommée app-activite.
+Construisez l'image Docker : Cette commande lit le Dockerfile et crée une image locale nommée app.
 
-docker build -t app-activite .
+docker build -t app .
 
 Lancez le conteneur : Cette commande exécute l'image app-activite. L'option --rm nettoie et supprime le conteneur après son exécution.
 
-docker run --rm app-activite
+docker run --rm app
 
 Une idée d'activité devrait alors s'afficher dans votre terminal.
